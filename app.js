@@ -1,6 +1,6 @@
 let briefAmounts = {
     briefcase1: {
-        briefcasevalue:1000,
+        briefcasevalue:2000,
         url:"",
         banner:"",
     },
