@@ -1,0 +1,33 @@
+.navContainer{
+    border: solid black;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.newGamebtn{
+    border: solid green;
+    height: 10vh;
+    width: 100%;
+}
+.titleContainer{
+    border: solid yellow;
+    height: 10vh;
+    width: 100%;
+}
+.scoreContainer{
+    border: solid red;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+}
+.p1Score{
+    border: solid orange;
+    height: 10vh;
+    width: 100%;
+}
+.p2Score{
+    border: solid blue;
+    height: 10vh;
+    width: 100%;
+}
