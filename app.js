@@ -214,6 +214,45 @@ const showScore = () =>{
 }
 showScore()
 
+const startGame = () =>{
+    let aBriefCase1 = document.querySelector('.ship1')
+    aBriefCase1.setAttribute('src',briefP1Amounts.briefcase1.url)
+    let aBriefCase1banner = document.querySelector('.ship2')
+    aBriefCase2banner.setAttribute('src',briefP1Amounts.briefcase2.banner)
+    let aBriefCase2 = document.querySelector('.ship1')
+    aBriefCase2.setAttribute('src',briefP1Amounts.briefcase2.url)
+    let aBriefCase2banner = document.querySelector('.ship2')
+    aBriefCase2banner.setAttribute('src',briefP1Amounts.briefcase2.banner)
+    let aBriefCase3 = document.querySelector('.ship1')
+    aBriefCase3.setAttribute('src',briefP1Amounts.briefcase3.url)
+    let aBriefCase3banner = document.querySelector('.ship2')
+    aBriefCase3banner.setAttribute('src',briefP1Amounts.briefcase3.banner)
+    let aBriefCase4 = document.querySelector('.ship1')
+    aBriefCase4.setAttribute('src',briefP1Amounts.briefcase4.url)
+    let aBriefCase4banner = document.querySelector('.ship2')
+    aBriefCase4banner.setAttribute('src',briefP1Amounts.briefcase4.banner)
+    let aBriefCase5 = document.querySelector('.ship1')
+    aBriefCase5.setAttribute('src',briefP1Amounts.briefcase5.url)
+    let aBriefCase5banner = document.querySelector('.ship2')
+    aBriefCase5banner.setAttribute('src',briefP1Amounts.briefcase5.banner)
+    let aBriefCase6 = document.querySelector('.ship1')
+    aBriefCase6.setAttribute('src',briefP1Amounts.briefcase6.url)
+    let aBriefCase6banner = document.querySelector('.ship2')
+    aBriefCase1banner.setAttribute('src',briefP1Amounts.briefcase6.banner)
+    let aBriefCase7 = document.querySelector('.ship1')
+    aBriefCase7.setAttribute('src',briefP1Amounts.briefcase7.url)
+    let aBriefCase7banner = document.querySelector('.ship2')
+    aBriefCase7banner.setAttribute('src',briefP1Amounts.briefcase7.banner)
+    let aBriefCase8 = document.querySelector('.ship1')
+    aBriefCase8.setAttribute('src',briefP1Amounts.briefcase8.url)
+    let aBriefCase8banner = document.querySelector('.ship2')
+    aBriefCase8banner.setAttribute('src',briefP1Amounts.briefcase8.banner)
+    let aBriefCase9 = document.querySelector('.ship1')
+    aBriefCase9.setAttribute('src',briefP1Amounts.briefcase9.url)
+    let aBriefCase9banner = document.querySelector('.ship2')
+    aBriefCase9banner.setAttribute('src',briefP1Amounts.briefcase9.banner)
+}
+
 const p1briefCaseChoice1 = () =>{
     p1Score -= briefP1Amounts.briefcase1.briefcasevalue = p1Score();
     document.getElementsByClassName("");
