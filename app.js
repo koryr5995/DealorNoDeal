@@ -214,9 +214,186 @@ const showScore = () =>{
 }
 showScore()
 
-const p1briefCaseChoice = () =>{
-    p1briefCaseChoice -= briefP1Amounts.briefcase1
+const p1briefCaseChoice1 = () =>{
+    p1Score -= briefP1Amounts.briefcase1.briefcasevalue = newScore();
+    document.getElementsByClassName("");
+    Element.remove();
+    document.getElementsByClassName("");
+    Element.remove();
 }
+newScore()
+
+const p1briefCaseChoice2 = () =>{
+    p1Score -= briefP1Amounts.briefcase2.briefcasevalue = newScore();
+    document.getElementsByClassName("");
+    Element.remove();
+    document.getElementsByClassName("");
+    Element.remove();
+}
+newScore()
+
+const p1briefCaseChoice3 = () =>{
+    p1Score -= briefP1Amounts.briefcase3.briefcasevalue = newScore();
+    document.getElementsByClassName("");
+    Element.remove();
+    document.getElementsByClassName("");
+    Element.remove();
+}
+newScore()
+
+const p1briefCaseChoice4 = () =>{
+    p1Score -= briefP1Amounts.briefcase4.briefcasevalue = newScore();
+    document.getElementsByClassName("");
+    Element.remove();
+    document.getElementsByClassName("");
+    Element.remove();
+}
+newScore()
+
+const p1briefCaseChoice5 = () =>{
+    p1Score -= briefP1Amounts.briefcase5.briefcasevalue = newScore();
+    document.getElementsByClassName("");
+    Element.remove();
+    document.getElementsByClassName("");
+    Element.remove();
+}
+newScore()
+
+const p1briefCaseChoice6 = () =>{
+    p1Score -= briefP1Amounts.briefcase6.briefcasevalue = newScore();
+    document.getElementsByClassName("");
+    Element.remove();
+    document.getElementsByClassName("");
+    Element.remove();
+}
+newScore()
+
+const p1briefCaseChoice7 = () =>{
+    p1Score -= briefP1Amounts.briefcase7.briefcasevalue = newScore();
+    document.getElementsByClassName("");
+    Element.remove();
+    document.getElementsByClassName("");
+    Element.remove();
+}
+newScore()
+
+const p1briefCaseChoice8 = () =>{
+    p1Score -= briefP1Amounts.briefcase8.briefcasevalue = newScore();
+    document.getElementsByClassName("");
+    Element.remove();
+    document.getElementsByClassName("");
+    Element.remove();
+}
+newScore()
+
+const p1briefCaseChoice9 = () =>{
+    p1Score -= briefP1Amounts.briefcase9.briefcasevalue = newScore();
+    document.getElementsByClassName("");
+    Element.remove();
+    document.getElementsByClassName("");
+    Element.remove();
+}
+newScore()
+
+const p1briefCaseChoice10 = () =>{
+    p1Score -= briefP1Amounts.briefcase10.briefcasevalue = newScore();
+    document.getElementsByClassName("");
+    Element.remove();
+    document.getElementsByClassName("");
+    Element.remove();
+}
+newScore()
+
+const p1briefCaseChoice11 = () =>{
+    p1Score -= briefP1Amounts.briefcase11.briefcasevalue = newScore();
+    document.getElementsByClassName("");
+    Element.remove();
+    document.getElementsByClassName("");
+    Element.remove();
+}
+newScore()
+
+const p1briefCaseChoice12 = () =>{
+    p1Score -= briefP1Amounts.briefcase12.briefcasevalue = newScore();
+    document.getElementsByClassName("");
+    Element.remove();
+    document.getElementsByClassName("");
+    Element.remove();
+}
+newScore()
+
+const p1briefCaseChoice13 = () =>{
+    p1Score -= briefP1Amounts.briefcase13.briefcasevalue = newScore();
+    document.getElementsByClassName("");
+    Element.remove();
+    document.getElementsByClassName("");
+    Element.remove();
+}
+newScore()
+
+const p1briefCaseChoice14 = () =>{
+    p1Score -= briefP1Amounts.briefcase14.briefcasevalue = newScore();
+    document.getElementsByClassName("");
+    Element.remove();
+    document.getElementsByClassName("");
+    Element.remove();
+}
+newScore()
+
+const p1briefCaseChoice15 = () =>{
+    p1Score -= briefP1Amounts.briefcase15.briefcasevalue = newScore();
+    document.getElementsByClassName("");
+    Element.remove();
+    document.getElementsByClassName("");
+    Element.remove();
+}
+newScore()
+
+const p1briefCaseChoice16 = () =>{
+    p1Score -= briefP1Amounts.briefcase1.briefcasevalue = newScore();
+    document.getElementsByClassName("");
+    Element.remove();
+    document.getElementsByClassName("");
+    Element.remove();
+}
+newScore()
+
+const p1briefCaseChoice17 = () =>{
+    p1Score -= briefP1Amounts.briefcase17.briefcasevalue = newScore();
+    document.getElementsByClassName("");
+    Element.remove();
+    document.getElementsByClassName("");
+    Element.remove();
+}
+newScore()
+
+const p1briefCaseChoice18 = () =>{
+    p1Score -= briefP1Amounts.briefcase18.briefcasevalue = newScore();
+    document.getElementsByClassName("");
+    Element.remove();
+    document.getElementsByClassName("");
+    Element.remove();
+}
+newScore()
+
+const p1briefCaseChoice19 = () =>{
+    p1Score -= briefP1Amounts.briefcase19.briefcasevalue = newScore();
+    document.getElementsByClassName("");
+    Element.remove();
+    document.getElementsByClassName("");
+    Element.remove();
+}
+newScore()
+
+const p1briefCaseChoice20 = () =>{
+    p1Score -= briefP1Amounts.briefcase20.briefcasevalue = newScore();
+    document.getElementsByClassName("");
+    Element.remove();
+    document.getElementsByClassName("");
+    Element.remove();
+}
+newScore()
+
 const gameOver = () =>{
     if(p1Score > p2Score){
         alert("Player 1 has won the game, good luck next time Player 2.")
