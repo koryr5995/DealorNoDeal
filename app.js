@@ -203,5 +203,24 @@ let briefP2Amounts = {
         banner:"",
     },
 }
+let p1Score = 2100000
+let p2Score = 2100000
 
-let bestScore = ((currentScore > previousScore) || (previousScore > currentScore))
+const showScore = () =>{
+    let player1Score = document.querySelector('.score1')
+    player1Score.innerHTML = p1Score
+    let player2Score = document.querySelector('.score2')
+    player2Score.innerHTML = p2Score
+}
+showScore()
+
+const p1briefCaseChoice = () =>{
+    p1briefCaseChoice -= briefP1Amounts.briefcase1
+}
+const gameOver = () =>{
+    if(p1Score > p2Score){
+        alert("Player 1 has won the game, good luck next time Player 2.")
+    }else{
+        alert("Player 2 has won the game, good luck next time Player 1.")
+    }
+}
