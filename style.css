@@ -9,11 +9,20 @@
     border: solid green;
     height: 10vh;
     width: 100%;
+    background-image: url('https://media.istockphoto.com/id/678906476/es/v%C3%ADdeo/brillo-azul-led-bucle-de-animación-vj-fondo.jpg?b=1&s=640x640&k=20&c=SXJd_9VjCgQdJtmvTaF8UVipgJK-PRxBF4Hq55sykoc=');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.startGame{
+    height: 100%;
+    width: 100%;
 }
 .titleContainer{
     border: solid yellow;
     height: 10vh;
     width: 100%;
+    background-color: black;
 }
 .scoreContainer{
     border: solid red;
@@ -47,9 +56,10 @@
 }
 .Gameboard{
     border: solid black;
-    height: 80vh;
+    height: 100vh;
     width: 100%;
     display:flex;
+    background-image: url('https://media.istockphoto.com/id/678906476/es/v%C3%ADdeo/brillo-azul-led-bucle-de-animación-vj-fondo.jpg?b=1&s=640x640&k=20&c=SXJd_9VjCgQdJtmvTaF8UVipgJK-PRxBF4Hq55sykoc=') ;
 }
 .player1GB{
     border: solid red;
@@ -71,10 +81,11 @@
     width: 20%;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 .leftBanner,.rightBanner{
     border: solid gold;
-    height: 10%;
+    height: 8%;
     width: 100%;
     color: gold;
     background-color: gray;
@@ -85,6 +96,7 @@
     width: 20%;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 .boxesContainer{
     border: solid black;
