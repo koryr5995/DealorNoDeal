@@ -31,3 +31,19 @@
     height: 10vh;
     width: 100%;
 }
+.Gameboard{
+    border: solid black;
+    height: 80vh;
+    width: 100%;
+    display:flex;
+}
+.player1GB{
+    border: solid red;
+    height: 100%;
+    width: 50%;
+}
+.player2GB{
+    border: solid blue;
+    height: 100%;
+    width: 50%;
+}
