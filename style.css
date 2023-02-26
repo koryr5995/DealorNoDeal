@@ -21,15 +21,29 @@
     width: 100%;
     display: flex;
 }
-.p1Score{
+.p1ScoreContainer,.p2ScoreContainer{
     border: solid orange;
     height: 10vh;
     width: 100%;
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-.p2Score{
-    border: solid blue;
-    height: 10vh;
+.scoreHead1{
+    border: solid black;
+    text-align: center;
+    margin-top: 1px;
+    height:30%;
     width: 100%;
+}
+.score1,.score2{
+    border: solid black;
+    height:30%;
+    width:50%;
+    text-align: center;
+    background-color: white;
+
 }
 .Gameboard{
     border: solid black;
