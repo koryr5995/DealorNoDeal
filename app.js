@@ -295,245 +295,218 @@ const p1briefCaseChoice13 = () =>{
 showScore()
 
 const p1briefCaseChoice14 = () =>{
-    p1Score -= briefP1Amounts.briefcase14.briefcasevalue = p1Score();
-    document.getElementsByClassName("");
-    Element.remove();
-    document.getElementsByClassName("");
-    Element.remove();
+    p1Overall.value -= briefP1Amounts.briefcase14.briefcasevalue;
+    let removebanner14 = document.querySelector('#bc14');
+    removebanner14.parentElement.removeChild(removebanner14)
+        showScore()
 }
 showScore()
 
 const p1briefCaseChoice15 = () =>{
-    p1Score -= briefP1Amounts.briefcase15.briefcasevalue = p1Score();
-    document.getElementsByClassName("");
-    Element.remove();
-    document.getElementsByClassName("");
-    Element.remove();
+    p1Overall.value -= briefP1Amounts.briefcase15.briefcasevalue;
+    let removebanner15 = document.querySelector('#bc1');
+    removebanner15.parentElement.removeChild(removebanner15)
+        showScore()
 }
-p1Score()
+showScore()
 
 const p1briefCaseChoice16 = () =>{
-    p1Score -= briefP1Amounts.briefcase16.briefcasevalue = p1Score();
-    document.getElementsByClassName("");
-    Element.remove();
-    document.getElementsByClassName("");
-    Element.remove();
+    p1Overall.value -= briefP1Amounts.briefcase16.briefcasevalue;
+    let removebanner16 = document.querySelector('#bc16');
+    removebanner16.parentElement.removeChild(removebanner16)
+        showScore()
 }
-p1Score()
+showScore()
 
 const p1briefCaseChoice17 = () =>{
-    p1Score -= briefP1Amounts.briefcase17.briefcasevalue = p1Score();
-    document.getElementsByClassName("");
-    Element.remove();
-    document.getElementsByClassName("");
-    Element.remove();
+    p1Overall.value -= briefP1Amounts.briefcase17.briefcasevalue;
+    let removebanner17 = document.querySelector('#bc17');
+    removebanner17.parentElement.removeChild(removebanner17)
+        showScore()
 }
-p1Score()
+showScore()
 
 const p1briefCaseChoice18 = () =>{
-    p1Score -= briefP1Amounts.briefcase18.briefcasevalue = p1Score();
-    document.getElementsByClassName("");
-    Element.remove();
-    document.getElementsByClassName("");
-    Element.remove();
+    p1Overall.value -= briefP1Amounts.briefcase18.briefcasevalue;
+    let removebanner18 = document.querySelector('#bc18');
+    removebanner18.parentElement.removeChild(removebanner18)
+        showScore()
 }
-p1Score()
+showScore()
 
 const p1briefCaseChoice19 = () =>{
-    p1Score -= briefP1Amounts.briefcase19.briefcasevalue = p1Score();
-    document.getElementsByClassName("");
-    Element.remove();
-    document.getElementsByClassName("");
-    Element.remove();
+    p1Overall.value -= briefP1Amounts.briefcase19.briefcasevalue;
+    let removebanner19 = document.querySelector('#bc19');
+    removebanner19.parentElement.removeChild(removebanner19)
+        showScore()
 }
-p1Score()
+showScore()
 
 const p1briefCaseChoice20 = () =>{
-    p1Score -= briefP1Amounts.briefcase20.briefcasevalue = p1Score();
-    document.getElementsByClassName("");
-    Element.remove();
-    document.getElementsByClassName("");
-    Element.remove();
+    p1Overall.value -= briefP1Amounts.briefcase20.briefcasevalue;
+    let removebanner20 = document.querySelector('#bc20');
+    removebanner20.parentElement.removeChild(removebanner20)
+        showScore()
 }
-p1Score()
+showScore()
 
 const p2briefCaseChoice1 = () =>{
-    p2Score -= briefP2Amounts.briefcase1.briefcasevalue = p2Score();
-    document.getElementsByClassName("");
-    Element.remove();
-    document.getElementsByClassName("");
-    Element.remove();
+    p2Overall.value -= briefP2Amounts.briefcase1.briefcasevalue;
+    let removebanner1b = document.querySelector('#bd1');
+    removebanner1b.parentElement.removeChild(removebanner1b)
+        showScore()
 }
-p2Score()
+showScore()
 
 const p2briefCaseChoice2 = () =>{
-    p2Score -= briefP2Amounts.briefcase2.briefcasevalue = p2Score();
-    document.getElementsByClassName("");
-    Element.remove();
-    document.getElementsByClassName("");
-    Element.remove();
+    p2Overall.value -= briefP2Amounts.briefcase1.briefcasevalue;
+    let removebanner2b = document.querySelector('#bd2');
+    removebanner2b.parentElement.removeChild(removebanner2b)
+        showScore()
 }
-p2Score()
+showScore()
 
 const p2briefCaseChoice3 = () =>{
-    p2Score -= briefP2Amounts.briefcase3.briefcasevalue = p2Score();
-    document.getElementsByClassName("");
-    Element.remove();
-    document.getElementsByClassName("");
-    Element.remove();
+    p2Overall.value -= briefP2Amounts.briefcase3.briefcasevalue;
+    let removebanner3b = document.querySelector('#bd3');
+    removebanner3b.parentElement.removeChild(removebanner3b)
+        showScore()
 }
-p2Score()
+showScore()
 
 const p2briefCaseChoice4 = () =>{
-    p2Score -= briefP2Amounts.briefcase4.briefcasevalue = p2Score();
-    document.getElementsByClassName("");
-    Element.remove();
-    document.getElementsByClassName("");
-    Element.remove();
+    p2Overall.value -= briefP2Amounts.briefcase4.briefcasevalue;
+    let removebanner4b = document.querySelector('#bd4');
+    removebanner4b.parentElement.removeChild(removebanner4b)
+        showScore()
 }
-p2Score()
+showScore()
 
 const p2briefCaseChoice5 = () =>{
-    p2Score -= briefP2Amounts.briefcase5.briefcasevalue = p2Score();
-    document.getElementsByClassName("");
-    Element.remove();
-    document.getElementsByClassName("");
-    Element.remove();
+    p2Overall.value -= briefP2Amounts.briefcase5.briefcasevalue;
+    let removebanner5b = document.querySelector('#bd5');
+    removebanner5b.parentElement.removeChild(removebanner5b)
+        showScore()
 }
-p2Score()
+showScore()
 
 const p2briefCaseChoice6 = () =>{
-    p2Score -= briefP2Amounts.briefcase6.briefcasevalue = p2Score();
-    document.getElementsByClassName("");
-    Element.remove();
-    document.getElementsByClassName("");
-    Element.remove();
+    p2Overall.value -= briefP2Amounts.briefcase6.briefcasevalue;
+    let removebanner6b = document.querySelector('#bd6');
+    removebanner6b.parentElement.removeChild(removebanner6b)
+        showScore()
 }
-p2Score()
+showScore()
 
 const p2briefCaseChoice7 = () =>{
-    p2Score -= briefP2Amounts.briefcase7.briefcasevalue = p2Score();
-    document.getElementsByClassName("");
-    Element.remove();
-    document.getElementsByClassName("");
-    Element.remove();
+    p2Overall.value -= briefP2Amounts.briefcase7.briefcasevalue;
+    let removebanner7b = document.querySelector('#bd7');
+    removebanner7b.parentElement.removeChild(removebanner7b)
+        showScore()
 }
-p2Score()
+showScore()
 
 const p2briefCaseChoice8 = () =>{
-    p2Score -= briefP2Amounts.briefcase8.briefcasevalue = p2Score();
-    document.getElementsByClassName("");
-    Element.remove();
-    document.getElementsByClassName("");
-    Element.remove();
+    p2Overall.value -= briefP2Amounts.briefcase8.briefcasevalue;
+    let removebanner8b = document.querySelector('#bd8');
+    removebanner8b.parentElement.removeChild(removebanner8b)
+        showScore()
 }
-p2Score()
+showScore()
 
 const p2briefCaseChoice9 = () =>{
-    p2Score -= briefP2Amounts.briefcase9.briefcasevalue = p2Score();
-    document.getElementsByClassName("");
-    Element.remove();
-    document.getElementsByClassName("");
-    Element.remove();
+    p2Overall.value -= briefP2Amounts.briefcase9.briefcasevalue;
+    let removebanner9b = document.querySelector('#bd9');
+    removebanner9b.parentElement.removeChild(removebanner9b)
+        showScore()
 }
-p2Score()
+showScore()
 
 const p2briefCaseChoice10 = () =>{
-    p2Score -= briefP2Amounts.briefcase10.briefcasevalue = p2Score();
-    document.getElementsByClassName("");
-    Element.remove();
-    document.getElementsByClassName("");
-    Element.remove();
+    p2Overall.value -= briefP2Amounts.briefcase10.briefcasevalue;
+    let removebanner10b = document.querySelector('#bd10');
+    removebanner10b.parentElement.removeChild(removebanner10b)
+        showScore()
 }
-p2Score()
+showScore()
 
 const p2briefCaseChoice11 = () =>{
-    p2Score -= briefP2Amounts.briefcase11.briefcasevalue = p2Score();
-    document.getElementsByClassName("");
-    Element.remove();
-    document.getElementsByClassName("");
-    Element.remove();
+    p2Overall.value -= briefP2Amounts.briefcase11.briefcasevalue;
+    let removebanner11b = document.querySelector('#bd11');
+    removebanner11b.parentElement.removeChild(removebanner11b)
+        showScore()
 }
-p2Score()
+showScore()
 
 const p2briefCaseChoice12 = () =>{
-    p2Score -= briefP2Amounts.briefcase12.briefcasevalue = p2Score();
-    document.getElementsByClassName("");
-    Element.remove();
-    document.getElementsByClassName("");
-    Element.remove();
+    p2Overall.value -= briefP2Amounts.briefcase12.briefcasevalue;
+    let removebanner12b = document.querySelector('#bd12');
+    removebanner12b.parentElement.removeChild(removebanner12b)
+        showScore()
 }
-p2Score()
+showScore()
 
 const p2briefCaseChoice13 = () =>{
-    p2Score -= briefP2Amounts.briefcase13.briefcasevalue = p2Score();
-    document.getElementsByClassName("");
-    Element.remove();
-    document.getElementsByClassName("");
-    Element.remove();
+    p2Overall.value -= briefP2Amounts.briefcase13.briefcasevalue;
+    let removebanner13b = document.querySelector('#bd13');
+    removebanner13b.parentElement.removeChild(removebanner13b)
+        showScore()
 }
-p2Score()
+showScore()
 
 const p2briefCaseChoice14 = () =>{
-    p2Score -= briefP2Amounts.briefcase14.briefcasevalue = p2Score();
-    document.getElementsByClassName("");
-    Element.remove();
-    document.getElementsByClassName("");
-    Element.remove();
+    p2Overall.value -= briefP2Amounts.briefcase14.briefcasevalue;
+    let removebanner14b = document.querySelector('#bd14');
+    removebanner14b.parentElement.removeChild(removebanner14b)
+        showScore()
 }
-p2Score()
+showScore()
 
 const p2briefCaseChoice15 = () =>{
-    p2Score -= briefP2Amounts.briefcase15.briefcasevalue = p2Score();
-    document.getElementsByClassName("");
-    Element.remove();
-    document.getElementsByClassName("");
-    Element.remove();
+    p2Overall.value -= briefP2Amounts.briefcase15.briefcasevalue;
+    let removebanner15b = document.querySelector('#bd15');
+    removebanner15b.parentElement.removeChild(removebanner15b)
+        showScore()
 }
-p2Score()
+showScore()
 
 const p2briefCaseChoice16 = () =>{
-    p2Score -= briefP2Amounts.briefcase16.briefcasevalue = p2Score();
-    document.getElementsByClassName("");
-    Element.remove();
-    document.getElementsByClassName("");
-    Element.remove();
+    p2Overall.value -= briefP2Amounts.briefcase16.briefcasevalue;
+    let removebanner16b = document.querySelector('#bd16');
+    removebanner16b.parentElement.removeChild(removebanner16b)
+        showScore()
 }
-p2Score()
+showScore()
 
 const p2briefCaseChoice17 = () =>{
-    p2Score -= briefP2Amounts.briefcase17.briefcasevalue = p2Score();
-    document.getElementsByClassName("");
-    Element.remove();
-    document.getElementsByClassName("");
-    Element.remove();
+    p2Overall.value -= briefP2Amounts.briefcase1.briefcasevalue;
+    let removebanner17b = document.querySelector('#bd17');
+    removebanner17b.parentElement.removeChild(removebanner17b)
+        showScore()
 }
-p2Score()
+showScore()
 
 const p2briefCaseChoice18 = () =>{
-    p2Score -= briefP2Amounts.briefcase18.briefcasevalue = p2Score();
-    document.getElementsByClassName("");
-    Element.remove();
-    document.getElementsByClassName("");
-    Element.remove();
+    p2Overall.value -= briefP2Amounts.briefcase18.briefcasevalue;
+    let removebanner18b = document.querySelector('#bd18');
+    removebanner18b.parentElement.removeChild(removebanner18b)
+        showScore()
 }
-p2Score()
+showScore()
 
 const p2briefCaseChoice19 = () =>{
-    p2Score -= briefP2Amounts.briefcase19.briefcasevalue = p2Score();
-    document.getElementsByClassName("");
-    Element.remove();
-    document.getElementsByClassName("");
-    Element.remove();
+    p2Overall.value -= briefP2Amounts.briefcase19.briefcasevalue;
+    let removebanner19b = document.querySelector('#bd19');
+    removebanner19b.parentElement.removeChild(removebanner19b)
+        showScore()
 }
 p2Score()
 
 const p2briefCaseChoice20 = () =>{
-    p2Score -= briefP2Amounts.briefcase20.briefcasevalue = p2Score();
-    document.getElementsByClassName("");
-    Element.remove();
-    document.getElementsByClassName("");
-    Element.remove();
+    p2Overall.value -= briefP2Amounts.briefcase20.briefcasevalue;
+    let removebanner20b = document.querySelector('#bd20');
+    removebanner20b.parentElement.removeChild(removebanner20b)
+        showScore()
 }
 p2Score()
 
