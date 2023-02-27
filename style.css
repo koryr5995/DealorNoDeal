@@ -1,12 +1,10 @@
 .navContainer{
-    border: solid black;
     height: 100%;
     width: 100%;
     display: flex;
     justify-content: space-around;
 }
 .newGamebtn{
-    border: solid green;
     height: 10vh;
     width: 100%;
     background-image: url('https://media.istockphoto.com/id/678906476/es/v%C3%ADdeo/brillo-azul-led-bucle-de-animación-vj-fondo.jpg?b=1&s=640x640&k=20&c=SXJd_9VjCgQdJtmvTaF8UVipgJK-PRxBF4Hq55sykoc=');
@@ -19,19 +17,17 @@
     width: 100%;
 }
 .titleContainer{
-    border: solid yellow;
+    border: solid gold;
     height: 10vh;
     width: 100%;
     background-color: black;
 }
 .scoreContainer{
-    border: solid red;
     height: 10vh;
     width: 100%;
     display: flex;
 }
 .p1ScoreContainer,.p2ScoreContainer{
-    border: solid orange;
     height: 10vh;
     width: 100%;
     background-color: gray;
@@ -40,14 +36,13 @@
     align-items: center;
 }
 .scoreHead1{
-    border: solid black;
     text-align: center;
     margin-top: 1px;
     height:30%;
     width: 100%;
 }
 .score1,.score2{
-    border: solid black;
+    color: black;
     height:30%;
     width:50%;
     text-align: center;
@@ -55,28 +50,24 @@
 
 }
 .Gameboard{
-    border: solid black;
     height: 100vh;
     width: 100%;
     display:flex;
     background-image: url('https://media.istockphoto.com/id/678906476/es/v%C3%ADdeo/brillo-azul-led-bucle-de-animación-vj-fondo.jpg?b=1&s=640x640&k=20&c=SXJd_9VjCgQdJtmvTaF8UVipgJK-PRxBF4Hq55sykoc=') ;
 }
 .player1GB{
-    border: solid red;
     height: 100%;
     width: 50%;
     display: flex;
     justify-content: space-between;
 }
 .player2GB{
-    border: solid blue;
     height: 100%;
     width: 50%;
     display: flex;
     justify-content: space-between;
 }
 .moneyBannerL{
-    border: solid black;
     height: 100%;
     width: 20%;
     display: flex;
@@ -91,7 +82,6 @@
     background-color: gray;
 }
 .moneybannerR{
-    border: solid black;
     height: 100%;
     width: 20%;
     display: flex;
@@ -99,7 +89,6 @@
     justify-content: space-between;
 }
 .boxesContainer{
-    border: solid black;
     height: 100%;
     width: 60%;
     display: flex;
