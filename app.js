@@ -763,9 +763,9 @@ const p2briefCaseChoice20 = () =>{
 showScore()
 
 const gameOver = () =>{
-    if(p1Overall.value > p2Overall.value){
+    if((p1Overall.value > p2Overall.value) && (P1boxSelected && P2boxSelected === 11)){
         alert("Player 1 has won the game, good luck next time Player 2.")
-    }else{
+    }elseif((p2Overall.value > p1Overall.value) && (P1boxSelected && P2boxSelected === 11))
         alert("Player 2 has won the game, good luck next time Player 1.")
-    }
+    
 }
