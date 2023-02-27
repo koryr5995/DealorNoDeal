@@ -95,8 +95,9 @@
     justify-content: space-around;
     flex-wrap: wrap;
 }
-.boxes{
+.boxes,.boxes2{
     border: solid black;
     height: 12%;
     width: 18%;
+    text-align: center;
 }

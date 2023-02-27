@@ -171,6 +171,9 @@ let p2Overall = {
     value:2100000,
     turn: true,
 }
+let P1boxSelected = 0
+let P2boxSelected = 0
+
 const showScore = () =>{
     let player1Score = document.querySelector('.score1')
     player1Score.innerHTML = p1Overall.value
@@ -183,22 +186,43 @@ const startGame = () =>{
     showScore()
 }
 
+
+
 const player1Turn = () =>{
-    if(briefP1Amounts.length() === 20 && p1Overall.turn === true){
-        p1Overall.value -= briefP1Amounts.briefcase1.briefcasevalue;
-        showScore()
-    }
+if(p1Overall.value === 2100000 & p2Overall === 2100000){
+    document.boxes2.style.backgroundColor = "red"
+}
 }
 
+const player2Turn = () =>{
+    if(p1Overall.value === 2100000 & p2Overall === 2100000){
+        document.boxes2.style.backgroundColor = "blue"
+    }
+    }
+
 const p1briefCaseChoice1 = () => {
+    if(P1boxSelected > P2boxSelected){
+        player2Turn()
+    }
+    if ((P1boxSelected > 11) && (p1Overall.value ===p2Overall.value)){
+        return
+    }
     p1Overall.value -= briefP1Amounts.briefcase1.briefcasevalue;
     let removebanner1 = document.querySelector('#bc1');
     removebanner1.parentElement.removeChild(removebanner1)
         showScore()
+        P1boxSelected ++;
+
 }
 showScore()
 
 const p1briefCaseChoice2 = () =>{
+    if(P1boxSelected > P2boxSelected){
+        player2Turn()
+    }
+    if ((P1boxSelected > 11) && (p1Overall.value ===p2Overall.value)){
+        return
+    }
     p1Overall.value -= briefP1Amounts.briefcase2.briefcasevalue;
     let removebanner2 = document.querySelector('#bc2');
     removebanner2.parentElement.removeChild(removebanner1)
@@ -500,7 +524,7 @@ const p2briefCaseChoice19 = () =>{
     removebanner19b.parentElement.removeChild(removebanner19b)
         showScore()
 }
-p2Score()
+showScore()
 
 const p2briefCaseChoice20 = () =>{
     p2Overall.value -= briefP2Amounts.briefcase20.briefcasevalue;
@@ -508,10 +532,10 @@ const p2briefCaseChoice20 = () =>{
     removebanner20b.parentElement.removeChild(removebanner20b)
         showScore()
 }
-p2Score()
+showScore()
 
 const gameOver = () =>{
-    if(p1Score > p2Score){
+    if(p1Overall.value > p2Overall.value){
         alert("Player 1 has won the game, good luck next time Player 2.")
     }else{
         alert("Player 2 has won the game, good luck next time Player 1.")
