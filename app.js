@@ -693,6 +693,12 @@ const p2briefCaseChoice15 = () =>{
 showScore()
 
 const p2briefCaseChoice16 = () =>{
+    if(P1boxSelected > P2boxSelected){
+        player2Turn()
+    }
+    if ((P1boxSelected > 11) && (p1Overall.value ===p2Overall.value)){
+        return
+    }
     p2Overall.value -= briefP2Amounts.briefcase16.briefcasevalue;
     let removebanner16b = document.querySelector('#bd16');
     removebanner16b.parentElement.removeChild(removebanner16b)
@@ -701,6 +707,12 @@ const p2briefCaseChoice16 = () =>{
 showScore()
 
 const p2briefCaseChoice17 = () =>{
+    if(P1boxSelected > P2boxSelected){
+        player2Turn()
+    }
+    if ((P1boxSelected > 11) && (p1Overall.value ===p2Overall.value)){
+        return
+    }
     p2Overall.value -= briefP2Amounts.briefcase1.briefcasevalue;
     let removebanner17b = document.querySelector('#bd17');
     removebanner17b.parentElement.removeChild(removebanner17b)
@@ -709,6 +721,12 @@ const p2briefCaseChoice17 = () =>{
 showScore()
 
 const p2briefCaseChoice18 = () =>{
+    if(P1boxSelected > P2boxSelected){
+        player2Turn()
+    }
+    if ((P1boxSelected > 11) && (p1Overall.value ===p2Overall.value)){
+        return
+    }
     p2Overall.value -= briefP2Amounts.briefcase18.briefcasevalue;
     let removebanner18b = document.querySelector('#bd18');
     removebanner18b.parentElement.removeChild(removebanner18b)
@@ -717,6 +735,12 @@ const p2briefCaseChoice18 = () =>{
 showScore()
 
 const p2briefCaseChoice19 = () =>{
+    if(P1boxSelected > P2boxSelected){
+        player2Turn()
+    }
+    if ((P1boxSelected > 11) && (p1Overall.value ===p2Overall.value)){
+        return
+    }
     p2Overall.value -= briefP2Amounts.briefcase19.briefcasevalue;
     let removebanner19b = document.querySelector('#bd19');
     removebanner19b.parentElement.removeChild(removebanner19b)
@@ -725,6 +749,12 @@ const p2briefCaseChoice19 = () =>{
 showScore()
 
 const p2briefCaseChoice20 = () =>{
+    if(P1boxSelected > P2boxSelected){
+        player2Turn()
+    }
+    if ((P1boxSelected > 11) && (p1Overall.value ===p2Overall.value)){
+        return
+    }
     p2Overall.value -= briefP2Amounts.briefcase20.briefcasevalue;
     let removebanner20b = document.querySelector('#bd20');
     removebanner20b.parentElement.removeChild(removebanner20b)
