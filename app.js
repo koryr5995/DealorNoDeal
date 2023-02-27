@@ -231,6 +231,12 @@ const p1briefCaseChoice2 = () =>{
 showScore()
 
 const p1briefCaseChoice3 = () =>{
+    if(P1boxSelected > P2boxSelected){
+        player2Turn()
+    }
+    if ((P1boxSelected > 11) && (p1Overall.value ===p2Overall.value)){
+        return
+    }
     p1Overall.value -= briefP1Amounts.briefcase3.briefcasevalue;
     let removebanner3 = document.querySelector('#bc3');
     removebanner3.parentElement.removeChild(removebanner3)
@@ -239,6 +245,12 @@ const p1briefCaseChoice3 = () =>{
 showScore()
 
 const p1briefCaseChoice4 = () =>{
+    if(P1boxSelected > P2boxSelected){
+        player2Turn()
+    }
+    if ((P1boxSelected > 11) && (p1Overall.value ===p2Overall.value)){
+        return
+    }
     p1Overall.value -= briefP1Amounts.briefcase4.briefcasevalue;
     let removebanner4 = document.querySelector('#bc4');
     removebanner4.parentElement.removeChild(removebanner4)
@@ -247,6 +259,12 @@ const p1briefCaseChoice4 = () =>{
 showScore()
 
 const p1briefCaseChoice5 = () =>{
+    if(P1boxSelected > P2boxSelected){
+        player2Turn()
+    }
+    if ((P1boxSelected > 11) && (p1Overall.value ===p2Overall.value)){
+        return
+    }
     p1Overall.value -= briefP1Amounts.briefcase5.briefcasevalue;
     let removebanner5 = document.querySelector('#bc5');
     removebanner5.parentElement.removeChild(removebanner15)
@@ -255,6 +273,12 @@ const p1briefCaseChoice5 = () =>{
 showScore()
 
 const p1briefCaseChoice6 = () =>{
+    if(P1boxSelected > P2boxSelected){
+        player2Turn()
+    }
+    if ((P1boxSelected > 11) && (p1Overall.value ===p2Overall.value)){
+        return
+    }
     p1Overall.value -= briefP1Amounts.briefcase6.briefcasevalue;
     let removebanner6 = document.querySelector('#bc6');
     removebanner6.parentElement.removeChild(removebanner6)
@@ -263,6 +287,12 @@ const p1briefCaseChoice6 = () =>{
 showScore()
 
 const p1briefCaseChoice7 = () =>{
+    if(P1boxSelected > P2boxSelected){
+        player2Turn()
+    }
+    if ((P1boxSelected > 11) && (p1Overall.value ===p2Overall.value)){
+        return
+    }
     p1Overall.value -= briefP1Amounts.briefcase7.briefcasevalue;
     let removebanner7 = document.querySelector('#bc7');
     removebanner7.parentElement.removeChild(removebanner7)
@@ -271,6 +301,12 @@ const p1briefCaseChoice7 = () =>{
 showScore()
 
 const p1briefCaseChoice8 = () =>{
+    if(P1boxSelected > P2boxSelected){
+        player2Turn()
+    }
+    if ((P1boxSelected > 11) && (p1Overall.value ===p2Overall.value)){
+        return
+    }
     p1Overall.value -= briefP1Amounts.briefcase8.briefcasevalue;
     let removebanner8 = document.querySelector('#bc8');
     removebanner8.parentElement.removeChild(removebanner8)
@@ -279,6 +315,12 @@ const p1briefCaseChoice8 = () =>{
 showScore()
 
 const p1briefCaseChoice9 = () =>{
+    if(P1boxSelected > P2boxSelected){
+        player2Turn()
+    }
+    if ((P1boxSelected > 11) && (p1Overall.value ===p2Overall.value)){
+        return
+    }
     p1Overall.value -= briefP1Amounts.briefcase9.briefcasevalue;
     let removebanner9 = document.querySelector('#bc9');
     removebanner9.parentElement.removeChild(removebanner9)
@@ -287,6 +329,12 @@ const p1briefCaseChoice9 = () =>{
 showScore()
 
 const p1briefCaseChoice10 = () =>{
+    if(P1boxSelected > P2boxSelected){
+        player2Turn()
+    }
+    if ((P1boxSelected > 11) && (p1Overall.value ===p2Overall.value)){
+        return
+    }
     p1Overall.value -= briefP1Amounts.briefcase10.briefcasevalue;
     let removebanner10 = document.querySelector('#bc10');
     removebanner10.parentElement.removeChild(removebanner10)
@@ -295,6 +343,12 @@ const p1briefCaseChoice10 = () =>{
 showScore()
 
 const p1briefCaseChoice11 = () =>{
+    if(P1boxSelected > P2boxSelected){
+        player2Turn()
+    }
+    if ((P1boxSelected > 11) && (p1Overall.value ===p2Overall.value)){
+        return
+    }
     p1Overall.value -= briefP1Amounts.briefcase11.briefcasevalue;
     let removebanner11 = document.querySelector('#bc11');
     removebanner11.parentElement.removeChild(removebanner11)
