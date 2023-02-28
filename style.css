@@ -101,3 +101,17 @@
     width: 18%;
     text-align: center;
 }
+.BoxContainer{
+    border: solid black;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.BoxCounter1,.BoxCounter2{
+    border: solid black;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    color: black;
+}

@@ -171,8 +171,8 @@ let p2Overall = {
     value:2100000,
     turn: true,
 }
-let P1boxSelected = 0
-let P2boxSelected = 0
+let P1boxSelected = 0;
+let P2boxSelected = 0;
 
 const showScore = () =>{
     let player1Score = document.querySelector('.score1')
@@ -182,10 +182,14 @@ const showScore = () =>{
 }
 showScore()
 
-const startGame = () =>{
-    showScore()
-}
 
+const showCounter = () =>{
+    let Pl1boxSelected = document.querySelector('.BoxCounter1')
+    Pl1boxSelected.innerHTML = P1boxSelected
+    let Pl2boxSelected = document.querySelector('.BoxCounter2')
+    Pl2boxSelected.innerHTML = P2boxSelected;
+}
+showCounter()
 
 
 const player1Turn = () =>{
@@ -204,41 +208,48 @@ const p1briefCaseChoice1 = () => {
     if(P1boxSelected > P2boxSelected){
         player2Turn()
     }
-    if ((P1boxSelected > 11) && (p1Overall.value ===p2Overall.value)){
+    if (P1boxSelected >= 11){
         return
     }
     p1Overall.value -= briefP1Amounts.briefcase1.briefcasevalue;
-    let removebanner1 = document.querySelector('#bc1');
+    let removebanner1 = document.querySelector('#bc1')
+    P1boxSelected.innerHTML = P1boxSelected++;
+    showCounter()
     removebanner1.parentElement.removeChild(removebanner1)
         showScore()
-        P1boxSelected ++;
-
+        P1boxSelected++;
 }
 showScore()
+showCounter()
 
 const p1briefCaseChoice2 = () =>{
     if(P1boxSelected > P2boxSelected){
         player2Turn()
     }
-    if ((P1boxSelected > 11) && (p1Overall.value ===p2Overall.value)){
+    if (P1boxSelected >= 11){
         return
     }
     p1Overall.value -= briefP1Amounts.briefcase2.briefcasevalue;
-    let removebanner2 = document.querySelector('#bc2');
+    let removebanner2 = document.querySelector('#bc2')
+    P1boxSelected.innerHTML = P1boxSelected++;
+    showCounter();
     removebanner2.parentElement.removeChild(removebanner1)
         showScore()
 }
 showScore()
+showCounter()
 
 const p1briefCaseChoice3 = () =>{
     if(P1boxSelected > P2boxSelected){
         player2Turn()
     }
-    if ((P1boxSelected > 11) && (p1Overall.value ===p2Overall.value)){
+    if (P1boxSelected >= 11){
         return
     }
     p1Overall.value -= briefP1Amounts.briefcase3.briefcasevalue;
-    let removebanner3 = document.querySelector('#bc3');
+    let removebanner3 = document.querySelector('#bc3')
+    P1boxSelected.innerHTML = P1boxSelected++;
+    showCounter();
     removebanner3.parentElement.removeChild(removebanner3)
         showScore()
 }
@@ -248,11 +259,13 @@ const p1briefCaseChoice4 = () =>{
     if(P1boxSelected > P2boxSelected){
         player2Turn()
     }
-    if ((P1boxSelected > 11) && (p1Overall.value ===p2Overall.value)){
+    if (P1boxSelected >= 11){
         return
     }
     p1Overall.value -= briefP1Amounts.briefcase4.briefcasevalue;
-    let removebanner4 = document.querySelector('#bc4');
+    let removebanner4 = document.querySelector('#bc4')
+    P1boxSelected.innerHTML = P1boxSelected++;
+    showCounter();
     removebanner4.parentElement.removeChild(removebanner4)
         showScore()
 }
@@ -262,11 +275,13 @@ const p1briefCaseChoice5 = () =>{
     if(P1boxSelected > P2boxSelected){
         player2Turn()
     }
-    if ((P1boxSelected > 11) && (p1Overall.value ===p2Overall.value)){
+    if (P1boxSelected >= 11){
         return
     }
     p1Overall.value -= briefP1Amounts.briefcase5.briefcasevalue;
-    let removebanner5 = document.querySelector('#bc5');
+    let removebanner5 = document.querySelector('#bc5')
+    P1boxSelected.innerHTML = P1boxSelected++;
+    showCounter()
     removebanner5.parentElement.removeChild(removebanner15)
         showScore()
 }
@@ -276,10 +291,12 @@ const p1briefCaseChoice6 = () =>{
     if(P1boxSelected > P2boxSelected){
         player2Turn()
     }
-    if ((P1boxSelected > 11) && (p1Overall.value ===p2Overall.value)){
+    if (P1boxSelected >= 11){
         return
     }
-    p1Overall.value -= briefP1Amounts.briefcase6.briefcasevalue;
+    p1Overall.value -= briefP1Amounts.briefcase6.briefcasevalue
+    P1boxSelected.innerHTML = P1boxSelected++;
+    showCounter();
     let removebanner6 = document.querySelector('#bc6');
     removebanner6.parentElement.removeChild(removebanner6)
         showScore()
@@ -290,11 +307,13 @@ const p1briefCaseChoice7 = () =>{
     if(P1boxSelected > P2boxSelected){
         player2Turn()
     }
-    if ((P1boxSelected > 11) && (p1Overall.value ===p2Overall.value)){
+    if (P1boxSelected >= 11){
         return
     }
     p1Overall.value -= briefP1Amounts.briefcase7.briefcasevalue;
-    let removebanner7 = document.querySelector('#bc7');
+    let removebanner7 = document.querySelector('#bc7')
+    P1boxSelected.innerHTML = P1boxSelected++;
+    showCounter();
     removebanner7.parentElement.removeChild(removebanner7)
         showScore()
 }
@@ -304,11 +323,13 @@ const p1briefCaseChoice8 = () =>{
     if(P1boxSelected > P2boxSelected){
         player2Turn()
     }
-    if ((P1boxSelected > 11) && (p1Overall.value ===p2Overall.value)){
+    if (P1boxSelected >= 11){
         return
     }
     p1Overall.value -= briefP1Amounts.briefcase8.briefcasevalue;
-    let removebanner8 = document.querySelector('#bc8');
+    let removebanner8 = document.querySelector('#bc8')
+    P1boxSelected.innerHTML = P1boxSelected++;
+    showCounter();
     removebanner8.parentElement.removeChild(removebanner8)
         showScore()
 }
@@ -318,11 +339,13 @@ const p1briefCaseChoice9 = () =>{
     if(P1boxSelected > P2boxSelected){
         player2Turn()
     }
-    if ((P1boxSelected > 11) && (p1Overall.value ===p2Overall.value)){
+    if (P1boxSelected >= 11){
         return
     }
     p1Overall.value -= briefP1Amounts.briefcase9.briefcasevalue;
-    let removebanner9 = document.querySelector('#bc9');
+    let removebanner9 = document.querySelector('#bc9')
+    P1boxSelected.innerHTML = P1boxSelected++;
+    showCounter();
     removebanner9.parentElement.removeChild(removebanner9)
         showScore()
 }
@@ -332,11 +355,13 @@ const p1briefCaseChoice10 = () =>{
     if(P1boxSelected > P2boxSelected){
         player2Turn()
     }
-    if ((P1boxSelected > 11) && (p1Overall.value ===p2Overall.value)){
+    if (P1boxSelected >= 11){
         return
     }
     p1Overall.value -= briefP1Amounts.briefcase10.briefcasevalue;
-    let removebanner10 = document.querySelector('#bc10');
+    let removebanner10 = document.querySelector('#bc10')
+    P1boxSelected.innerHTML = P1boxSelected++;
+    showCounter();
     removebanner10.parentElement.removeChild(removebanner10)
         showScore()
 }
@@ -346,11 +371,13 @@ const p1briefCaseChoice11 = () =>{
     if(P1boxSelected > P2boxSelected){
         player2Turn()
     }
-    if ((P1boxSelected > 11) && (p1Overall.value ===p2Overall.value)){
+    if (P1boxSelected >= 11){
         return
     }
     p1Overall.value -= briefP1Amounts.briefcase11.briefcasevalue;
-    let removebanner11 = document.querySelector('#bc11');
+    let removebanner11 = document.querySelector('#bc11')
+    P1boxSelected.innerHTML = P1boxSelected++;
+    showCounter();
     removebanner11.parentElement.removeChild(removebanner11)
         showScore()
 }
@@ -360,11 +387,13 @@ const p1briefCaseChoice12 = () =>{
     if(P1boxSelected > P2boxSelected){
         player2Turn()
     }
-    if ((P1boxSelected > 11) && (p1Overall.value ===p2Overall.value)){
+    if (P1boxSelected >= 11){
         return
     }
     p1Overall.value -= briefP1Amounts.briefcase12.briefcasevalue;
-    let removebanner12 = document.querySelector('#bc1');
+    let removebanner12 = document.querySelector('#bc1')
+    P1boxSelected.innerHTML = P1boxSelected++;
+    showCounter();
     removebanner12.parentElement.removeChild(removebanner12)
         showScore()
 }
@@ -374,11 +403,13 @@ const p1briefCaseChoice13 = () =>{
     if(P1boxSelected > P2boxSelected){
         player2Turn()
     }
-    if ((P1boxSelected > 11) && (p1Overall.value ===p2Overall.value)){
+    if (P1boxSelected >= 11){
         return
     }
     p1Overall.value -= briefP1Amounts.briefcase13.briefcasevalue;
-    let removebanner13 = document.querySelector('#bc13');
+    let removebanner13 = document.querySelector('#bc13')
+    P1boxSelected.innerHTML = P1boxSelected++;
+    showCounter();
     removebanner13.parentElement.removeChild(removebanner13)
         showScore()
 }
@@ -388,11 +419,13 @@ const p1briefCaseChoice14 = () =>{
     if(P1boxSelected > P2boxSelected){
         player2Turn()
     }
-    if ((P1boxSelected > 11) && (p1Overall.value ===p2Overall.value)){
+    if (P1boxSelected >= 11){
         return
     }
     p1Overall.value -= briefP1Amounts.briefcase14.briefcasevalue;
-    let removebanner14 = document.querySelector('#bc14');
+    let removebanner14 = document.querySelector('#bc14')
+    P1boxSelected.innerHTML = P1boxSelected++;
+    showCounter();
     removebanner14.parentElement.removeChild(removebanner14)
         showScore()
 }
@@ -402,11 +435,13 @@ const p1briefCaseChoice15 = () =>{
     if(P1boxSelected > P2boxSelected){
         player2Turn()
     }
-    if ((P1boxSelected > 11) && (p1Overall.value ===p2Overall.value)){
+    if (P1boxSelected >= 11){
         return
     }
     p1Overall.value -= briefP1Amounts.briefcase15.briefcasevalue;
-    let removebanner15 = document.querySelector('#bc1');
+    let removebanner15 = document.querySelector('#bc1')
+    P1boxSelected.innerHTML = P1boxSelected++;
+    showCounter();
     removebanner15.parentElement.removeChild(removebanner15)
         showScore()
 }
@@ -416,11 +451,13 @@ const p1briefCaseChoice16 = () =>{
     if(P1boxSelected > P2boxSelected){
         player2Turn()
     }
-    if ((P1boxSelected > 11) && (p1Overall.value ===p2Overall.value)){
+    if (P1boxSelected >= 11){
         return
     }
     p1Overall.value -= briefP1Amounts.briefcase16.briefcasevalue;
-    let removebanner16 = document.querySelector('#bc16');
+    let removebanner16 = document.querySelector('#bc16')
+    P1boxSelected.innerHTML = P1boxSelected++;
+    showCounter();
     removebanner16.parentElement.removeChild(removebanner16)
         showScore()
 }
@@ -430,11 +467,13 @@ const p1briefCaseChoice17 = () =>{
     if(P1boxSelected > P2boxSelected){
         player2Turn()
     }
-    if ((P1boxSelected > 11) && (p1Overall.value ===p2Overall.value)){
+    if (P1boxSelected >= 11){
         return
     }
     p1Overall.value -= briefP1Amounts.briefcase17.briefcasevalue;
-    let removebanner17 = document.querySelector('#bc17');
+    let removebanner17 = document.querySelector('#bc17')
+    P1boxSelected.innerHTML = P1boxSelected++;
+    showCounter();
     removebanner17.parentElement.removeChild(removebanner17)
         showScore()
 }
@@ -444,11 +483,13 @@ const p1briefCaseChoice18 = () =>{
     if(P1boxSelected > P2boxSelected){
         player2Turn()
     }
-    if ((P1boxSelected > 11) && (p1Overall.value ===p2Overall.value)){
+    if (P1boxSelected >= 11){
         return
     }
     p1Overall.value -= briefP1Amounts.briefcase18.briefcasevalue;
-    let removebanner18 = document.querySelector('#bc18');
+    let removebanner18 = document.querySelector('#bc18')
+    P1boxSelected.innerHTML = P1boxSelected++;
+    showCounter();
     removebanner18.parentElement.removeChild(removebanner18)
         showScore()
 }
@@ -458,11 +499,13 @@ const p1briefCaseChoice19 = () =>{
     if(P1boxSelected > P2boxSelected){
         player2Turn()
     }
-    if ((P1boxSelected > 11) && (p1Overall.value ===p2Overall.value)){
+    if (P1boxSelected >= 11){
         return
     }
     p1Overall.value -= briefP1Amounts.briefcase19.briefcasevalue;
-    let removebanner19 = document.querySelector('#bc19');
+    let removebanner19 = document.querySelector('#bc19')
+    P1boxSelected.innerHTML = P1boxSelected++;
+    showCounter();
     removebanner19.parentElement.removeChild(removebanner19)
         showScore()
 }
@@ -472,11 +515,13 @@ const p1briefCaseChoice20 = () =>{
     if(P1boxSelected > P2boxSelected){
         player2Turn()
     }
-    if ((P1boxSelected > 11) && (p1Overall.value ===p2Overall.value)){
+    if (P1boxSelected > 11){
         return
     }
     p1Overall.value -= briefP1Amounts.briefcase20.briefcasevalue;
-    let removebanner20 = document.querySelector('#bc20');
+    let removebanner20 = document.querySelector('#bc20')
+    P1boxSelected.innerHTML = P1boxSelected++;
+    showCounter();
     removebanner20.parentElement.removeChild(removebanner20)
         showScore()
 }
@@ -486,11 +531,13 @@ const p2briefCaseChoice1 = () =>{
     if(P1boxSelected > P2boxSelected){
         player2Turn()
     }
-    if ((P2boxSelected > 11) && (p1Overall.value ===p2Overall.value)){
+    if (P2boxSelected > 11){
         return
     }
     p2Overall.value -= briefP2Amounts.briefcase1.briefcasevalue;
-    let removebanner1b = document.querySelector('#bd1');
+    let removebanner1b = document.querySelector('#bd1')
+    P2boxSelected.innerHTML = P2boxSelected++;
+    showCounter();
     removebanner1b.parentElement.removeChild(removebanner1b)
         showScore()
 }
@@ -500,11 +547,13 @@ const p2briefCaseChoice2 = () =>{
     if(P1boxSelected > P2boxSelected){
         player2Turn()
     }
-    if ((P1boxSelected > 11) && (p1Overall.value ===p2Overall.value)){
+    if (P2boxSelected > 11){
         return
     }
     p2Overall.value -= briefP2Amounts.briefcase1.briefcasevalue;
-    let removebanner2b = document.querySelector('#bd2');
+    let removebanner2b = document.querySelector('#bd2')
+    P2boxSelected.innerHTML = P2boxSelected++;
+    showCounter();
     removebanner2b.parentElement.removeChild(removebanner2b)
         showScore()
 }
@@ -514,11 +563,13 @@ const p2briefCaseChoice3 = () =>{
     if(P1boxSelected > P2boxSelected){
         player2Turn()
     }
-    if ((P1boxSelected > 11) && (p1Overall.value ===p2Overall.value)){
+    if (P2boxSelected > 11){
         return
     }
     p2Overall.value -= briefP2Amounts.briefcase3.briefcasevalue;
-    let removebanner3b = document.querySelector('#bd3');
+    let removebanner3b = document.querySelector('#bd3')
+    P2boxSelected.innerHTML = P2boxSelected++;
+    showCounter();
     removebanner3b.parentElement.removeChild(removebanner3b)
         showScore()
 }
@@ -528,11 +579,13 @@ const p2briefCaseChoice4 = () =>{
     if(P1boxSelected > P2boxSelected){
         player2Turn()
     }
-    if ((P1boxSelected > 11) && (p1Overall.value ===p2Overall.value)){
+    if (P2boxSelected > 11){
         return
     }
     p2Overall.value -= briefP2Amounts.briefcase4.briefcasevalue;
-    let removebanner4b = document.querySelector('#bd4');
+    let removebanner4b = document.querySelector('#bd4')
+    P2boxSelected.innerHTML = P2boxSelected++;
+    showCounter();
     removebanner4b.parentElement.removeChild(removebanner4b)
         showScore()
 }
@@ -542,11 +595,13 @@ const p2briefCaseChoice5 = () =>{
     if(P1boxSelected > P2boxSelected){
         player2Turn()
     }
-    if ((P1boxSelected > 11) && (p1Overall.value ===p2Overall.value)){
+    if (P2boxSelected > 11){
         return
     }
     p2Overall.value -= briefP2Amounts.briefcase5.briefcasevalue;
-    let removebanner5b = document.querySelector('#bd5');
+    let removebanner5b = document.querySelector('#bd5')
+    P2boxSelected.innerHTML = P2boxSelected++;
+    showCounter();
     removebanner5b.parentElement.removeChild(removebanner5b)
         showScore()
 }
@@ -752,7 +807,7 @@ const p2briefCaseChoice20 = () =>{
     if(P1boxSelected > P2boxSelected){
         player2Turn()
     }
-    if ((P1boxSelected > 11) && (p1Overall.value ===p2Overall.value)){
+    if (P1boxSelected >= 11){
         return
     }
     p2Overall.value -= briefP2Amounts.briefcase20.briefcasevalue;
