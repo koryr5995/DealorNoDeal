@@ -416,6 +416,7 @@ const p1briefCaseChoice12 = () =>{
     showCounter();
     removebanner12.parentElement.removeChild(removebanner12)
         showScore()
+        gameOver()
 }
 showScore()
 
@@ -432,6 +433,7 @@ const p1briefCaseChoice13 = () =>{
     showCounter();
     removebanner13.parentElement.removeChild(removebanner13)
         showScore()
+        gameOver()
 }
 showScore()
 
@@ -448,6 +450,7 @@ const p1briefCaseChoice14 = () =>{
     showCounter();
     removebanner14.parentElement.removeChild(removebanner14)
         showScore()
+        gameOver()
 }
 showScore()
 
@@ -464,6 +467,7 @@ const p1briefCaseChoice15 = () =>{
     showCounter();
     removebanner15.parentElement.removeChild(removebanner15)
         showScore()
+        gameOver()
 }
 showScore()
 
@@ -480,6 +484,7 @@ const p1briefCaseChoice16 = () =>{
     showCounter();
     removebanner16.parentElement.removeChild(removebanner16)
         showScore()
+        gameOver()
 }
 showScore()
 
@@ -496,6 +501,7 @@ const p1briefCaseChoice17 = () =>{
     showCounter();
     removebanner17.parentElement.removeChild(removebanner17)
         showScore()
+        gameOver()
 }
 showScore()
 
@@ -512,6 +518,7 @@ const p1briefCaseChoice18 = () =>{
     showCounter();
     removebanner18.parentElement.removeChild(removebanner18)
         showScore()
+        gameOver()
 }
 showScore()
 
@@ -528,6 +535,7 @@ const p1briefCaseChoice19 = () =>{
     showCounter();
     removebanner19.parentElement.removeChild(removebanner19)
         showScore()
+        gameOver()
 }
 showScore()
 
@@ -544,6 +552,7 @@ const p1briefCaseChoice20 = () =>{
     showCounter();
     removebanner20.parentElement.removeChild(removebanner20)
         showScore()
+        gameOver()
 }
 showScore()
 
@@ -560,6 +569,7 @@ const p2briefCaseChoice1 = () =>{
     showCounter();
     removebanner1b.parentElement.removeChild(removebanner1b)
         showScore()
+        gameOver()
 }
 showScore()
 
@@ -576,6 +586,7 @@ const p2briefCaseChoice2 = () =>{
     showCounter();
     removebanner2b.parentElement.removeChild(removebanner2b)
         showScore()
+        gameOver()
 }
 showScore()
 
@@ -592,6 +603,7 @@ const p2briefCaseChoice3 = () =>{
     showCounter();
     removebanner3b.parentElement.removeChild(removebanner3b)
         showScore()
+        gameOver()
 }
 showScore()
 
@@ -608,6 +620,7 @@ const p2briefCaseChoice4 = () =>{
     showCounter();
     removebanner4b.parentElement.removeChild(removebanner4b)
         showScore()
+        gameOver()
 }
 showScore()
 
@@ -624,6 +637,7 @@ const p2briefCaseChoice5 = () =>{
     showCounter();
     removebanner5b.parentElement.removeChild(removebanner5b)
         showScore()
+        gameOver()
 }
 showScore()
 
@@ -640,6 +654,7 @@ const p2briefCaseChoice6 = () =>{
     showCounter();
     removebanner6b.parentElement.removeChild(removebanner6b)
         showScore()
+        gameOver()
 }
 showScore()
 
@@ -656,6 +671,7 @@ const p2briefCaseChoice7 = () =>{
     showCounter();
     removebanner7b.parentElement.removeChild(removebanner7b)
         showScore()
+        gameOver()
 }
 showScore()
 
@@ -672,6 +688,7 @@ const p2briefCaseChoice8 = () =>{
     showCounter();
     removebanner8b.parentElement.removeChild(removebanner8b)
         showScore()
+        gameOver()
 }
 showScore()
 
@@ -688,6 +705,7 @@ const p2briefCaseChoice9 = () =>{
     showCounter();
     removebanner9b.parentElement.removeChild(removebanner9b)
         showScore()
+        gameOver()
 }
 showScore()
 
@@ -704,6 +722,7 @@ const p2briefCaseChoice10 = () =>{
     showCounter();
     removebanner10b.parentElement.removeChild(removebanner10b)
         showScore()
+        gameOver()
 }
 showScore()
 
@@ -720,6 +739,7 @@ const p2briefCaseChoice11 = () =>{
     showCounter();
     removebanner11b.parentElement.removeChild(removebanner11b)
         showScore()
+        gameOver()
 }
 showScore()
 
@@ -736,6 +756,7 @@ const p2briefCaseChoice12 = () =>{
     showCounter();
     removebanner12b.parentElement.removeChild(removebanner12b)
         showScore()
+        gameOver()
 }
 showScore()
 
@@ -752,6 +773,7 @@ const p2briefCaseChoice13 = () =>{
     showCounter();
     removebanner13b.parentElement.removeChild(removebanner13b)
         showScore()
+        gameOver()
 }
 showScore()
 
@@ -768,6 +790,7 @@ const p2briefCaseChoice14 = () =>{
     showCounter();
     removebanner14b.parentElement.removeChild(removebanner14b)
         showScore()
+        gameOver()
 }
 showScore()
 
@@ -784,6 +807,7 @@ const p2briefCaseChoice15 = () =>{
     showCounter();
     removebanner15b.parentElement.removeChild(removebanner15b)
         showScore()
+        gameOver()
 }
 showScore()
 
@@ -800,6 +824,7 @@ const p2briefCaseChoice16 = () =>{
     showCounter();
     removebanner16b.parentElement.removeChild(removebanner16b)
         showScore()
+        gameOver()
 }
 showScore()
 
@@ -816,6 +841,7 @@ const p2briefCaseChoice17 = () =>{
     showCounter();
     removebanner17b.parentElement.removeChild(removebanner17b)
         showScore()
+        gameOver()
 }
 showScore()
 
@@ -832,6 +858,7 @@ const p2briefCaseChoice18 = () =>{
     showCounter();
     removebanner18b.parentElement.removeChild(removebanner18b)
         showScore()
+        gameOver()
 }
 showScore()
 
@@ -848,6 +875,7 @@ const p2briefCaseChoice19 = () =>{
     showCounter();
     removebanner19b.parentElement.removeChild(removebanner19b)
         showScore()
+        gameOver()
 }
 showScore()
 
@@ -867,4 +895,5 @@ const p2briefCaseChoice20 = () =>{
         gameOver()
 }
 showScore()
+gameOver()
 
